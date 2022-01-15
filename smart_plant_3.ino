@@ -8,7 +8,7 @@
 // chamada a biblioteca do lcd:
 #include <LiquidCrystal.h>
 
-// config de portas do lcd
+// config de portas do LCD
 /*
   VSS pin gnd
   VDD pin +
