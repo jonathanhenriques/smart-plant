@@ -9,7 +9,8 @@
 #include <LiquidCrystal.h>
 
 // config de portas do LCD
-/*
+
+/*==========================================================================================================
   VSS pin gnd  | thinkercad seria a porta GND do LCD de dois fios
   VDD pin + | thinkercad seria a porta VCC  do LCD de dois fios
   VO pin ligado a porta 7 para controle backlight | thinkerdcad seria a porta VO do LCD de dois fios
@@ -26,7 +27,7 @@
   D7 pin 13 | thinkercas seria a porta D7 no pin 2 do LCD de dois fios
   A resistor 470 ligado no pin + | thinkercas seria a porta LED no pin + um RESISTOR de 220 U do LCD de dois fios
   K pin gnd | thinkercas seria a outra porta LED, a última, no pin -, do LCD de dois fios
-*/
+====================================================================================================================*/
 
 // Ligacoes das portas do lcd
 const int rs = 8, en = 9, d4 = 10, d5 = 11, d6 = 12, d7 = 13;
