@@ -10,22 +10,22 @@
 
 // config de portas do LCD
 /*
-  VSS pin gnd
-  VDD pin +
-  VO pin ligado a porta 7 para controle backlight
-  RS pin 8
-  RW pin gnd
-  Enable pin 9
-  D0 pin xdesligado
-  D1 pin xdesligado
-  D2 pin xdesligado
-  D3 pin xdesligado
-  D4 pin 10
-  D5 pin 11
-  D6 pin 12
-  D7 pin 13
-  A resistor 470 ligado no pin +
-  K pin gnd
+  VSS pin gnd  | thinkercad seria a porta GND do LCD de dois fios
+  VDD pin + | thinkercad seria a porta VCC  do LCD de dois fios
+  VO pin ligado a porta 7 para controle backlight | thinkerdcad seria a porta VO do LCD de dois fios
+  RS pin 8 | thinkercad seria a porta RS no pin 12 do LCD de dois fios
+  RW pin gnd | thinkercas seria a porta RW do pin RW ligado no GND do LCD de dois fios
+  Enable pin 9 | thinkercad seria a porta E do pin -11 DO LCD de dois fios
+  D0 pin xdesligado | thinkercad não ligado a nada no LCD de dois fios
+  D1 pin xdesligado | thinkercad não ligado a nada no LCD de dois fios
+  D2 pin xdesligado | thinkercad não ligado a nada no LCD de dois fios
+  D3 pin xdesligado | thinkercad não ligado a nada no LCD de dois fios
+  D4 pin 10 | thinkercas seria a porta D4 no pin -5 do LCD de dois fios
+  D5 pin 11 | thinkercas seria a porta D5 no pin 4 do LCD de dois fios
+  D6 pin 12 | thinkercas seria a porta D6 no pin -3 do LCD de dois fios
+  D7 pin 13 | thinkercas seria a porta D7 no pin 2 do LCD de dois fios
+  A resistor 470 ligado no pin + | thinkercas seria a porta LED no pin + um RESISTOR de 220 U do LCD de dois fios
+  K pin gnd | thinkercas seria a outra porta LED, a última, no pin -, do LCD de dois fios
 */
 
 // Ligacoes das portas do lcd
